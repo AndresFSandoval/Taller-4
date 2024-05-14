@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes por colombia</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <script>
+        var fondo = document.createElement("img")
+
+        fondo.src = "recursos/via tren.jpg"
+        fondo.style.width = "100%"
+        fondo.style.height = "600px"
+        fondo.style.position = "relative"
+
+        document.body.appendChild(fondo)
+
+        var cabezera = document.createElement("div")
+        cabezera.innerHTML = `
+
+        <div class="izquierda">
+            <img src="recursos/logo web.png" alt="" height="75px" width="100px">
+        </div>
+        <div class="derecha">
+        <div>
+        <a href="#" class="">HOME</a>
+        </div>
+        <a href="#">SERVICES</a>
+        <a href="#">EVENTS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#" style = "margin-right: 20px;">CONTACT</a>
+        </div>
+    `
+        cabezera.style.display = "flex"
+        cabezera.style.top = "-570px"
+        cabezera.style.position = "relative"
+        cabezera.style.marginLeft = "170px"
+        cabezera.style.height = "90px"
+        cabezera.style.width = "75%"
+        cabezera.style.alignItems = "center"
+        cabezera.style.backgroundColor = "white"
+
+        document.body.appendChild(cabezera)
+
+        var informacion = document.createElement("div")
+        informacion.innerHTML = `
+        <div>  
+            <br>
+        <span style="font-size: 25px; background-color: red; padding: 10px 25px; color: white; ">$8,450</span>
+        <h3 style="color: black;">Venice Italy</h3>
+        <p>Travel is free responsive template by templatemo <br>
+           all images use in this template are from Unisplash</p>
+        <br>
+        <a href="#" style="background-color: #9fd133; color: white; padding: 15px 25px; " >PRE-BOOKING</a>
+        </div>
+        `
+        informacion.style.display = "flex"
+        informacion.style.position = "relative"
+        informacion.style.height = "250px"
+        informacion.style.width = "350px"
+        informacion.style.top = "-450px"
+        informacion.style.left = "120px"
+        informacion.style.backgroundColor = "white"
+        informacion.style.textAlign = "center"
+
+        document.body.appendChild(informacion)
+
+        var targetas = document.createElement("div")
+        targetas.innerHTML = `
+        <div>
+            <span class="title">ITALY</span>
+            <img src="recursos/ital.jpg" alt="italia" class="imagenLugar">
+            <p style="color: #9fd133;">Rome, Milan, Naples</p>
+            <p style="color: #eb4245;">SILVER HOTEL, 4 NIGHTS, <br>
+                 5 STARS</p>
+            <a href="#" class="comprar">$1,800 BOOK NOW</a>
+        </div>
+        <div>
+            <span class="title">FRANCE</span>
+            <img src="recursos/fran.jpg" alt="francia" class="imagenLugar">
+            <p style="color: #9fd133;">Paris, Marseille, Lyon</p>
+            <p style="color: #eb4245;">NEW PLACE , 5 NIGHTS , <br>
+                 5 STARS </p>
+            <a href="#" class="comprar">$2,300 BOOK NOW</a>
+        </div>
+        <div>
+            <span class="title">GERMANY</span>
+            <img src="recursos/alema.jpg" alt="alemania" class="imagenLugar">
+            <p style="color: #9fd133;">Berlin, Hamburg, Munich</p>
+            <p style="color: #eb4245;">LUXE HOTEL, 5 NIGHTS, <br>
+                 6 STARS</p>
+            <a href="#" class="comprar">$3,100 BOOK NOW</a>
+        </div>
+        <div>
+            <span class="title">SPAIN</span>
+            <img src="recursos/españa.jpg" alt="españa" class="imagenLugar">
+            <p style="color: #9fd133;">Madrid, Barcelona, Valencia</p>
+            <p style="color: #eb4245;">GOOHD HOTEL, 4 NIGHTS,<br>
+                 6 STARS</p>
+            <a href="#" class="comprar">$4.800 BOOK NOW</a>
+        </div>
+        `
+        targetas.style.display = "flex"
+        targetas.style.gap = "40px"
+        targetas.style.marginLeft = "150px"
+        targetas.style.position = "absolute"
+        targetas.style.marginTop = "-390px"
+        targetas.style.justifyContent = "center"
+        document.body.appendChild(targetas)
+
+        var targetasEle = document.createElement("img")
+
+        targetasEle.src = "recursos/barra antes.jpg"
+        targetasEle.style.width = "100%"
+        targetasEle.style.height = "160px"
+        targetasEle.style.marginTop = "180px"
+        targetasEle.style.position = "absolute"
+
+        document.body.appendChild(targetasEle)
+
+        var footer = document.createElement("img")
+
+        footer.src = "recursos/Ultima.png"
+        footer.style.width = "100%"
+        footer.style.height = "100px"
+        footer.style.position = "absolute"
+        footer.style.marginTop = "430px"
+       
+
+        document.body.appendChild(footer)
+    </script>
+
+</body>
+
+</html>

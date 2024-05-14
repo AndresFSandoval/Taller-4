@@ -1,0 +1,71 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    position: relative;
+    min-height: 100vh;
+} 
+a {
+    text-decoration: none;
+}
+
+
+.izquierda {
+    width: 50%;
+    justify-content: left;
+
+}
+
+.derecha {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    gap: 10px;
+
+}
+
+.title {
+    background-color: #9fd133;
+    color: white;
+    padding: 19px;
+    display: flex;
+    width: 202px;
+    font-size: 15px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.imagenLugar {
+    height: 210px;
+    width: 240px;
+
+}
+
+.comprar {
+    background-color: #9fd133;
+    color: #fff;
+    border: none;
+    width: 202px;
+    padding: 19px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+.barraIzquierda{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+}
+
+.barraCentro{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.barraDerecha{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+
+}
